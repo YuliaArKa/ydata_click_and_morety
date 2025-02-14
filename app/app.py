@@ -172,12 +172,19 @@ def evaluate_model(model, X_test, y_test, threshold):
 def main():
     st.set_page_config(page_title="CTR Click Prediction Evaluation", layout="wide")
     st.title("CTR Click Prediction Evaluation App")
-    
+
+    BASE_DIR = Path(__file__).resolve().parent
     # Define fixed paths for training (used in preprocessing) and evaluation test set.
-    TRAIN_PATH = "../data/train_dataset_full.csv"  # update if needed
-    EVAL_TEST_PATH = "../data/X_test_1st.csv"         # used for evaluation tab
-    LABEL_TEST_PATH = '../data/y_test_1st.csv'
-    MODEL_PATH = '../models/XGBoost.joblib'
+    #TRAIN_PATH = "../data/train_dataset_full.csv"  # update if needed
+    #EVAL_TEST_PATH = "../data/X_test_1st.csv"         # used for evaluation tab
+    #LABEL_TEST_PATH = '../data/y_test_1st.csv'
+    #MODEL_PATH = '../models/XGBoost.joblib'
+
+    # Define fixed paths using the pathlib syntax
+    TRAIN_PATH = BASE_DIR / "data" / "train_dataset_full.csv"
+    EVAL_TEST_PATH = BASE_DIR / "data" / "X_test_1st.csv"
+    LABEL_TEST_PATH = BASE_DIR / "data" / "y_test_1st.csv"
+    MODEL_PATH = BASE_DIR / "models" / "XGBoost.joblib"
     # Create two tabs: one for uploading a test set & scoring, and one for model evaluation.
     tab_upload, tab_eval = st.tabs(["Upload & Score", "Model Evaluation"])
     
