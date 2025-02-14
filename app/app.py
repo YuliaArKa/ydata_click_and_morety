@@ -2,20 +2,23 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import joblib
 import io
 import tempfile
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import os
+from pathlib import Path
 import sys
+import lightgbm as lgb
+import xgboost as xgb
 
 from sklearn.metrics import (
     accuracy_score, precision_score, recall_score, f1_score, roc_auc_score,
     confusion_matrix, classification_report, roc_curve, balanced_accuracy_score
 )
 
-sys.path.append(os.path.abspath('..'))
+sys.path.append(str(Path('..').resolve()))
 from src.preprocess import preprocess_data
 
 
@@ -24,9 +27,21 @@ from src.preprocess import preprocess_data
 # -------------------------
 @st.cache_resource(show_spinner=False)
 def get_model(model_path):
-    """Loads the pre-trained model from disk."""
-    with open(model_path, 'rb') as f:
-        model = pickle.load(f)
+    # Check if the model file exists 
+    if not Path(model_path).exists():
+        st.error(f"Model file not found at: {model_path}")
+        st.stop()
+    # Check if model.joblib or model.pkl file
+    if model_path.endswith('.joblib'):
+         with open(model_path, 'rb') as f:
+            model = joblib.load(f)
+    elif model_path.endswith('.pkl') or model_path.endswith('.sav'):
+        with open(model_path, 'rb') as f:
+            model = pickle.load(f)
+    else:
+        st.error("Model file must be a .joblib or .pkl file.")
+        st.stop()
+    
     return model
 
 # -------------------------
@@ -160,8 +175,7 @@ def main():
     TRAIN_PATH = "../data/train_dataset_full.csv"  # update if needed
     EVAL_TEST_PATH = "../data/X_test_1st.csv"         # used for evaluation tab
     LABEL_TEST_PATH = '../data/y_test_1st.csv'
-    MODEL_PATH = '../models/xgb_classifier_model.sav'
-    
+    MODEL_PATH = '../models/XGBoost.joblib'
     # Create two tabs: one for uploading a test set & scoring, and one for model evaluation.
     tab_upload, tab_eval = st.tabs(["Upload & Score", "Model Evaluation"])
     
