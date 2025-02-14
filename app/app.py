@@ -18,7 +18,9 @@ from sklearn.metrics import (
     confusion_matrix, classification_report, roc_curve, balanced_accuracy_score
 )
 
-sys.path.append(str(Path('..').resolve()))
+current_dir = Path(__file__).resolve().parent
+project_root = current_dir.parent
+sys.path.append(str(project_root))
 from src.preprocess import preprocess_data
 
 
