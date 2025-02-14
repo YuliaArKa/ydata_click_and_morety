@@ -1,0 +1,36 @@
+{"time":"2025-02-14T13:01:17.4728848+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src\\wandb\\run-20250214_130117-eyqshqw7\\logs\\debug-core.log"}
+{"time":"2025-02-14T13:01:17.5985548+02:00","level":"INFO","msg":"created new stream","id":"eyqshqw7"}
+{"time":"2025-02-14T13:01:17.5985548+02:00","level":"INFO","msg":"stream: started","id":"eyqshqw7"}
+{"time":"2025-02-14T13:01:17.5985548+02:00","level":"INFO","msg":"handler: started","stream_id":"eyqshqw7"}
+{"time":"2025-02-14T13:01:17.5985548+02:00","level":"INFO","msg":"sender: started","stream_id":"eyqshqw7"}
+{"time":"2025-02-14T13:01:17.5985548+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"eyqshqw7"}
+{"time":"2025-02-14T13:01:17.9483105+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T13:01:27.9491056+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:01:37.9506568+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:01:47.9486125+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:01:57.9487292+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:02:07.9486545+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:02:17.9488559+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:02:27.949511+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:02:37.9501953+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:02:47.94937+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:02:57.9487759+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:03:07.9493804+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:03:17.9486415+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:03:27.9487454+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:03:37.9487746+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:03:47.9508421+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:03:57.9501128+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:04:07.9493352+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:04:17.950333+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:04:27.9489897+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:04:37.9491012+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:04:47.9504691+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:04:51.401596+02:00","level":"INFO","msg":"stream: closing","id":"eyqshqw7"}
+{"time":"2025-02-14T13:04:51.402102+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T13:04:51.405425+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T13:04:52.6553272+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T13:04:52.916437+02:00","level":"INFO","msg":"handler: closed","stream_id":"eyqshqw7"}
+{"time":"2025-02-14T13:04:52.916437+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"eyqshqw7"}
+{"time":"2025-02-14T13:04:52.916437+02:00","level":"INFO","msg":"sender: closed","stream_id":"eyqshqw7"}
+{"time":"2025-02-14T13:04:52.9170268+02:00","level":"INFO","msg":"stream: closed","id":"eyqshqw7"}

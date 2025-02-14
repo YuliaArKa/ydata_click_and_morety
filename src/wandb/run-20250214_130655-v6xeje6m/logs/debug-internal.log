@@ -1,0 +1,18 @@
+{"time":"2025-02-14T13:06:55.5961819+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src\\wandb\\run-20250214_130655-v6xeje6m\\logs\\debug-core.log"}
+{"time":"2025-02-14T13:06:55.7227185+02:00","level":"INFO","msg":"created new stream","id":"v6xeje6m"}
+{"time":"2025-02-14T13:06:55.7233504+02:00","level":"INFO","msg":"stream: started","id":"v6xeje6m"}
+{"time":"2025-02-14T13:06:55.7233504+02:00","level":"INFO","msg":"handler: started","stream_id":"v6xeje6m"}
+{"time":"2025-02-14T13:06:55.7233504+02:00","level":"INFO","msg":"sender: started","stream_id":"v6xeje6m"}
+{"time":"2025-02-14T13:06:55.7233504+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"v6xeje6m"}
+{"time":"2025-02-14T13:06:56.0424966+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T13:07:06.0446396+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:07:16.0436782+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:07:26.0528393+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-14T13:07:34.1458591+02:00","level":"INFO","msg":"stream: closing","id":"v6xeje6m"}
+{"time":"2025-02-14T13:07:34.1469387+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T13:07:34.1479861+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T13:07:35.2487293+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T13:07:35.5201943+02:00","level":"INFO","msg":"handler: closed","stream_id":"v6xeje6m"}
+{"time":"2025-02-14T13:07:35.5201943+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v6xeje6m"}
+{"time":"2025-02-14T13:07:35.5201943+02:00","level":"INFO","msg":"sender: closed","stream_id":"v6xeje6m"}
+{"time":"2025-02-14T13:07:35.5209973+02:00","level":"INFO","msg":"stream: closed","id":"v6xeje6m"}

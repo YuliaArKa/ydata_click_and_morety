@@ -1,0 +1,16 @@
+{"time":"2025-02-13T15:04:33.8835684+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src\\wandb\\run-20250213_150428-kjep3dl3\\logs\\debug-core.log"}
+{"time":"2025-02-13T15:04:34.1348073+02:00","level":"INFO","msg":"created new stream","id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:34.1348073+02:00","level":"INFO","msg":"stream: started","id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:34.1348073+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:34.1348073+02:00","level":"INFO","msg":"handler: started","stream_id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:34.1353852+02:00","level":"INFO","msg":"sender: started","stream_id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:35.117718+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-13T15:04:45.1188205+02:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2025-02-13T15:04:46.302253+02:00","level":"INFO","msg":"stream: closing","id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:46.302253+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-13T15:04:46.3034956+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-13T15:04:47.8749694+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-13T15:04:48.1534347+02:00","level":"INFO","msg":"handler: closed","stream_id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:48.1534347+02:00","level":"INFO","msg":"sender: closed","stream_id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:48.1534347+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kjep3dl3"}
+{"time":"2025-02-13T15:04:48.1541102+02:00","level":"INFO","msg":"stream: closed","id":"kjep3dl3"}

@@ -1,0 +1,15 @@
+{"time":"2025-02-14T12:51:07.4228088+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src\\wandb\\run-20250214_125106-63mkv05e\\logs\\debug-core.log"}
+{"time":"2025-02-14T12:51:07.7181959+02:00","level":"INFO","msg":"created new stream","id":"63mkv05e"}
+{"time":"2025-02-14T12:51:07.7181959+02:00","level":"INFO","msg":"stream: started","id":"63mkv05e"}
+{"time":"2025-02-14T12:51:07.7181959+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"63mkv05e"}
+{"time":"2025-02-14T12:51:07.7181959+02:00","level":"INFO","msg":"handler: started","stream_id":"63mkv05e"}
+{"time":"2025-02-14T12:51:07.7187975+02:00","level":"INFO","msg":"sender: started","stream_id":"63mkv05e"}
+{"time":"2025-02-14T12:51:08.0754403+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T12:51:08.4450686+02:00","level":"INFO","msg":"stream: closing","id":"63mkv05e"}
+{"time":"2025-02-14T12:51:08.4450686+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T12:51:08.4461902+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T12:51:09.5169686+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T12:51:09.8058544+02:00","level":"INFO","msg":"handler: closed","stream_id":"63mkv05e"}
+{"time":"2025-02-14T12:51:09.8058544+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"63mkv05e"}
+{"time":"2025-02-14T12:51:09.8058544+02:00","level":"INFO","msg":"sender: closed","stream_id":"63mkv05e"}
+{"time":"2025-02-14T12:51:09.8063811+02:00","level":"INFO","msg":"stream: closed","id":"63mkv05e"}

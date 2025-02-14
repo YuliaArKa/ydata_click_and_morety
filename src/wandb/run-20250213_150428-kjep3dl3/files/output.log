@@ -1,0 +1,9 @@
+NaiveBayes - Balanced Accuracy: 0.5667
+NaiveBayes - Weighted F1 Score: 0.7914
+NaiveBayes - Binary F1 Score: 0.1593
+NaiveBayes - Precision: 0.1007
+NaiveBayes - Recall: 0.3808
+NaiveBayes - Cohen Kappa: 0.0583
+Incumbent NaiveBayes has Balanced Accuracy: 0.5667
+New Naive Bayes model is not better. Saving candidate separately.
+Candidate model saved to C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\models\NaiveBayes_20250213_150446.joblib

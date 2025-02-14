@@ -1,0 +1,15 @@
+{"time":"2025-02-14T12:59:01.879358+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src\\wandb\\run-20250214_125901-9j8t917s\\logs\\debug-core.log"}
+{"time":"2025-02-14T12:59:02.0120681+02:00","level":"INFO","msg":"created new stream","id":"9j8t917s"}
+{"time":"2025-02-14T12:59:02.0126075+02:00","level":"INFO","msg":"stream: started","id":"9j8t917s"}
+{"time":"2025-02-14T12:59:02.0126075+02:00","level":"INFO","msg":"handler: started","stream_id":"9j8t917s"}
+{"time":"2025-02-14T12:59:02.0126075+02:00","level":"INFO","msg":"sender: started","stream_id":"9j8t917s"}
+{"time":"2025-02-14T12:59:02.0126075+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"9j8t917s"}
+{"time":"2025-02-14T12:59:02.3445763+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T12:59:02.6242489+02:00","level":"INFO","msg":"stream: closing","id":"9j8t917s"}
+{"time":"2025-02-14T12:59:02.6253063+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T12:59:02.6263603+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T12:59:03.7695513+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T12:59:04.0147083+02:00","level":"INFO","msg":"handler: closed","stream_id":"9j8t917s"}
+{"time":"2025-02-14T12:59:04.0147083+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9j8t917s"}
+{"time":"2025-02-14T12:59:04.0147083+02:00","level":"INFO","msg":"sender: closed","stream_id":"9j8t917s"}
+{"time":"2025-02-14T12:59:04.0152137+02:00","level":"INFO","msg":"stream: closed","id":"9j8t917s"}

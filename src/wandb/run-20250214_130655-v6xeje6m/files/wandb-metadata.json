@@ -1,0 +1,67 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-02-14T11:06:55.592471Z",
+  "args":  [
+    "--n-estimators",
+    "2300",
+    "--num-leaves",
+    "44",
+    "--learning-rate",
+    "0.004050722832091631",
+    "--max-depth",
+    "25",
+    "--colsample-bytree",
+    "0.7150456512055541",
+    "--subsample",
+    "0.7111523623347351",
+    "--min-child-samples",
+    "19",
+    "--reg-alpha",
+    "2.335997216476016",
+    "--reg-lambda",
+    "0.0008671538429735005",
+    "--min-split-gain",
+    "3.844666343638552e-08",
+    "--feature-fraction",
+    "0.5479483570468295",
+    "--bagging-fraction",
+    "0.4201006535438501",
+    "--bagging-freq",
+    "3",
+    "--metric",
+    "binary_error",
+    "--train-path",
+    "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\data\\train.csv",
+    "--test-path",
+    "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\data\\test.csv",
+    "--output-dir",
+    "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\models"
+  ],
+  "program":  "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src\\train_lgb.py",
+  "codePath":  "src\\train_lgb.py",
+  "git":  {
+    "remote":  "https://github.com/Matan-Gold/ydata_click_and_morety.git",
+    "commit":  "9f312a03c44d787edbe1ed36b8848062554dca0b"
+  },
+  "email":  "goldshllager@gmail.com",
+  "root":  "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src",
+  "host":  "DESKTOP-3RD2EFI",
+  "executable":  "C:\\Users\\Golds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "codePathLocal":  "train_lgb.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "510953312256",
+      "used":  "425937133568"
+    }
+  },
+  "memory":  {
+    "total":  "8299257856"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

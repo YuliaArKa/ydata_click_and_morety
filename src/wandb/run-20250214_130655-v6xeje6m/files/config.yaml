@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.19.6
+        m: []
+        python_version: 3.12.4
+        t:
+            "1":
+                - 5
+                - 8
+                - 53
+                - 55
+            "2":
+                - 5
+                - 8
+                - 53
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.12.4
+            "5": 0.19.6
+            "8":
+                - 3
+                - 5
+            "12": 0.19.6
+            "13": windows-amd64
+bagging_fraction:
+    value: 0.4201006535438501
+bagging_freq:
+    value: 3
+colsample_bytree:
+    value: 0.7150456512055541
+feature_fraction:
+    value: 0.5479483570468295
+learning_rate:
+    value: 0.004050722832091631
+max_depth:
+    value: 25
+metric:
+    value: binary_error
+min_child_samples:
+    value: 19
+min_split_gain:
+    value: 3.844666343638552e-08
+model_name:
+    value: LightGBM
+n_estimators:
+    value: 2300
+num_leaves:
+    value: 44
+output_dir:
+    value: C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\models
+reg_alpha:
+    value: 2.335997216476016
+reg_lambda:
+    value: 0.0008671538429735005
+subsample:
+    value: 0.7111523623347351
+test_path:
+    value: C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\data\test.csv
+train_path:
+    value: C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\data\train.csv

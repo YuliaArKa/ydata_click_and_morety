@@ -1,0 +1,23 @@
+2025-02-14 12:52:44,852 INFO    MainThread:24436 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-02-14 12:52:44,852 INFO    MainThread:24436 [wandb_setup.py:_flush():68] Configure stats pid to 24436
+2025-02-14 12:52:44,852 INFO    MainThread:24436 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Golds\.config\wandb\settings
+2025-02-14 12:52:44,852 INFO    MainThread:24436 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\src\wandb\settings
+2025-02-14 12:52:44,858 INFO    MainThread:24436 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-14 12:52:44,858 INFO    MainThread:24436 [wandb_init.py:setup_run_log_directory():637] Logging user logs to C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\src\wandb\run-20250214_125244-bbk65sqf\logs\debug.log
+2025-02-14 12:52:44,858 INFO    MainThread:24436 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\src\wandb\run-20250214_125244-bbk65sqf\logs\debug-internal.log
+2025-02-14 12:52:44,858 INFO    MainThread:24436 [wandb_init.py:init():756] calling init triggers
+2025-02-14 12:52:44,858 INFO    MainThread:24436 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'model_name': 'LightGBM', 'n_estimators': 2300, 'num_leaves': 44, 'learning_rate': 0.004050722832091631, 'max_depth': 25, 'colsample_bytree': 0.7150456512055541, 'subsample': 0.7111523623347351, 'min_child_samples': 19, 'reg_alpha': 2.335997216476016, 'reg_lambda': 0.0008671538429735005, 'min_split_gain': 3.844666343638552e-08, 'feature_fraction': 0.5479483570468295, 'bagging_fraction': 0.4201006535438501, 'bagging_freq': 3, 'metric': 'binary_error', 'output_dir': '/home/matangold/ydata/models', 'train_path': 'C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\data\\train.csv', 'test_path': 'C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\data\\test.csv', '_wandb': {}}
+2025-02-14 12:52:44,858 INFO    MainThread:24436 [wandb_init.py:init():789] starting backend
+2025-02-14 12:52:45,088 INFO    MainThread:24436 [wandb_init.py:init():793] sending inform_init request
+2025-02-14 12:52:45,147 INFO    MainThread:24436 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-14 12:52:45,151 INFO    MainThread:24436 [wandb_init.py:init():808] backend started and connected
+2025-02-14 12:52:45,155 INFO    MainThread:24436 [wandb_init.py:init():901] updated telemetry
+2025-02-14 12:52:45,209 INFO    MainThread:24436 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-14 12:52:45,672 INFO    MainThread:24436 [wandb_init.py:init():994] starting run threads in backend
+2025-02-14 12:52:45,832 INFO    MainThread:24436 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-14 12:52:45,832 INFO    MainThread:24436 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-14 12:52:45,833 INFO    MainThread:24436 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-14 12:52:45,833 INFO    MainThread:24436 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-14 12:52:45,834 INFO    MainThread:24436 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-14 12:53:25,159 WARNING MsgRouterThr:24436 [router.py:message_loop():75] message_loop has been closed

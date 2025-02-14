@@ -1,0 +1,41 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-02-13T12:51:45.893210Z",
+  "args":  [
+    "-m",
+    "NaiveBayes",
+    "-o",
+    "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\models",
+    "-t",
+    "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\data\\train.csv",
+    "-p",
+    "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\data\\test.csv"
+  ],
+  "program":  "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src\\train_nb.py",
+  "codePath":  "src\\train_nb.py",
+  "git":  {
+    "remote":  "https://github.com/Matan-Gold/ydata_click_and_morety.git",
+    "commit":  "ca1467bffcb34d2274c0382cbf2109d685157f4c"
+  },
+  "email":  "goldshllager@gmail.com",
+  "root":  "C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\{{cookiecutter.project_name}}\\ydata_click_and_morety\\src",
+  "host":  "DESKTOP-3RD2EFI",
+  "executable":  "C:\\Users\\Golds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "codePathLocal":  "train_nb.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "510953312256",
+      "used":  "425008136192"
+    }
+  },
+  "memory":  {
+    "total":  "8299257856"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

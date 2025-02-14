@@ -1,0 +1,23 @@
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_setup.py:_flush():68] Configure stats pid to 17024
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Golds\.config\wandb\settings
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\src\wandb\settings
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_init.py:setup_run_log_directory():637] Logging user logs to C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\src\wandb\run-20250214_130026-sooar3u5\logs\debug.log
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to C:\Users\Golds\.cookiecutters\serj-ds-skeleton\{{cookiecutter.project_name}}\ydata_click_and_morety\src\wandb\run-20250214_130026-sooar3u5\logs\debug-internal.log
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_init.py:init():756] calling init triggers
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'model_name': 'RandomForest', 'n_estimators': 900, 'max_depth': 50, 'min_samples_split': 10, 'min_samples_leaf': 46, 'max_features': 'log2', 'bootstrap': True, 'min_weight_fraction_leaf': 0.0001997802663902396, 'max_leaf_nodes': 224, 'criterion': 'entropy', 'output_dir': 'C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\ydata_click_and_morety\\models', 'train_path': 'C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\ydata_click_and_morety\\data\\train.csv', 'test_path': 'C:\\Users\\Golds\\.cookiecutters\\serj-ds-skeleton\\ydata_click_and_morety\\data\\test.csv', '_wandb': {}}
+2025-02-14 13:00:26,879 INFO    MainThread:17024 [wandb_init.py:init():789] starting backend
+2025-02-14 13:00:27,110 INFO    MainThread:17024 [wandb_init.py:init():793] sending inform_init request
+2025-02-14 13:00:27,175 INFO    MainThread:17024 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-14 13:00:27,180 INFO    MainThread:17024 [wandb_init.py:init():808] backend started and connected
+2025-02-14 13:00:27,182 INFO    MainThread:17024 [wandb_init.py:init():901] updated telemetry
+2025-02-14 13:00:27,237 INFO    MainThread:17024 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-14 13:00:27,682 INFO    MainThread:17024 [wandb_init.py:init():994] starting run threads in backend
+2025-02-14 13:00:27,861 INFO    MainThread:17024 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-14 13:00:27,862 INFO    MainThread:17024 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-14 13:00:27,862 INFO    MainThread:17024 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-14 13:00:27,862 INFO    MainThread:17024 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-14 13:00:27,864 INFO    MainThread:17024 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-14 13:00:27,872 WARNING MsgRouterThr:17024 [router.py:message_loop():75] message_loop has been closed
