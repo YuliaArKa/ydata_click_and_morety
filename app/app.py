@@ -183,7 +183,7 @@ def main():
     TRAIN_PATH = BASE_DIR / "data" / "train_dataset_full.csv"
     EVAL_TEST_PATH = BASE_DIR / "data" / "X_test_1st.csv"
     LABEL_TEST_PATH = BASE_DIR / "data" / "y_test_1st.csv"
-    MODEL_PATH = BASE_DIR / "models" / "XGBoost.joblib"
+    MODEL_PATH = BASE_DIR / "models" / "RandomForest.joblib"
     # Create two tabs: one for uploading a test set & scoring, and one for model evaluation.
     tab_upload, tab_eval = st.tabs(["Upload & Score", "Model Evaluation"])
     
