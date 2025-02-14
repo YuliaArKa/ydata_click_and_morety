@@ -255,7 +255,7 @@ def main():
         st.success("Data loaded and preprocessed successfully!")
         
         with st.spinner("Loading model..."):
-            model = get_model(MODEL_PATH)
+            model = get_model(MODEL_PATH) 
         st.success("Model loaded!")
 
         # Sidebar options for evaluation.
